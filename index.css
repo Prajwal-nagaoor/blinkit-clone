@@ -1,0 +1,84 @@
+.Header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+.header-section{
+    background-color: white;
+    height: 86px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header-left{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    width: auto ;
+}
+#logo{
+    height: 60px;
+    width: 120px;
+}
+.logo{
+    -webkit-box-align: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    height: 86px;
+    width: 178px;
+    display: flex;
+}
+.logo-line{
+    width: 1px;
+    display: flex;
+    background-color: rgb(242,242,242);
+    height: 100%;
+}
+.location-bar{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.location-bar-container{
+    align-items: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.loc-bar-con{
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.loc-bar-text{
+    color: rgb(0,0,0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.loc{
+    font-size: 13px;
+    color: rgb(0,0,0);
+    font-weight: 400;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    max-width: 210px;
+    text-overflow: ellipsis;
+}
