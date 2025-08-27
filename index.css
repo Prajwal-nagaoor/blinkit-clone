@@ -461,3 +461,18 @@ img{
     cursor: pointer;
     object-fit: fill;
 }
+/* .productdetailcontainer{
+    box-sizing: border-box;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
+} */
+/* .timecontainer{
+    margin-bottom: 7px;
+    gap: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 15px;
+    width: 90%;
+} */
